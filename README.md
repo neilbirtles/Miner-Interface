@@ -19,17 +19,20 @@ Then run the local publisher with
 
 `python MinerInfoLocalClient.py`
 
-usage: commandlinetest.py [-h] [-L LOCALIP] [-l LOCALPORT] [-s SBCMINERIP] [-S SBCMINERPORT]
+Usage of the script is as follows:
 
-Standardised interface for crypto miners to the SBC Miner
+`usage: commandlinetest.py [-h] [-L LOCALIP] [-l LOCALPORT] [-s SBCMINERIP] [-S SBCMINERPORT]`
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -L LOCALIP, --localip LOCALIP
-                        IP address for the local miner, default: 127.0.0.1
-  -l LOCALPORT, --localport LOCALPORT
-                        API port number for the local miner, default: 4048
-  -s SBCMINERIP, --sbcminerip SBCMINERIP
-                        IP address for the SBC Miner, default: 10.0.0.250
-  -S SBCMINERPORT, --sbcminerport SBCMINERPORT
-                        Miner Info port number for the SBC Miner, default: 55440
+`Standardised interface for crypto miners to the SBC Miner`
+
+`optional arguments:`
+
+`  -h, --help      show this help message and exit`
+  
+`  -L LOCALIP, --localip LOCALIP : IP address for the local miner, default: 127.0.0.1`
+                        
+`  -l LOCALPORT, --localport LOCALPORT : API port number for the local miner, default: 4048`
+                        
+`  -s SBCMINERIP, --sbcminerip SBCMINERIP : IP address for the SBC Miner, default: 10.0.0.250`
+                        
+`  -S SBCMINERPORT, --sbcminerport SBCMINERPORT : Miner Info port number for the SBC Miner, default: 55440`

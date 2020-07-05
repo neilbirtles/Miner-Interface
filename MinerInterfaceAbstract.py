@@ -1,7 +1,7 @@
 # Abstract class for the Miner Interface - all miner interfaces must subclass this
 
 from abc import ABC,abstractmethod 
-from .HashRateUnitsEnum import HashRateUnits
+from HashRateUnitsEnum import HashRateUnits
 
 class MinerInterfaceAbstract(ABC):
     

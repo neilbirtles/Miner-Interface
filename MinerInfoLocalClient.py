@@ -32,8 +32,8 @@ import argparse
 
 from apscheduler.schedulers.background import BackgroundScheduler
 
-from .MinerInfoLocalClientMessageLib import Client_Message_Handler
-from .MinerInterfaceCPUMiner import MinerInterface
+from MinerInfoLocalClientMessageLib import Client_Message_Handler
+from MinerInterfaceCPUMiner import MinerInterface
 
 # default ips and ports 
 controller_ip = '10.0.0.250'

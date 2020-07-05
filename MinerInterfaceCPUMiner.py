@@ -3,8 +3,8 @@
 #   translate from cpuminer to the format required by MinerInterfaceAbstract
 
 from apscheduler.schedulers.background import BackgroundScheduler
-from .HashRateUnitsEnum import HashRateUnits
-from .MinerInterfaceAbstract import MinerInterfaceAbstract
+from HashRateUnitsEnum import HashRateUnits
+from MinerInterfaceAbstract import MinerInterfaceAbstract
 import socket
 import json
 import time
